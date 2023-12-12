@@ -906,7 +906,7 @@ section {
 }
 
 .expertise {
-  cursor: help;
+  cursor: pointer;
 }
 
 /*
@@ -1483,7 +1483,7 @@ section {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #aaaaaa;
+  /*color: #aaaaaa;*/
 }
 
 .team .member .member-info p {
