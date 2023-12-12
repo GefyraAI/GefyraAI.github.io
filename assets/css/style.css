@@ -422,6 +422,10 @@ h6 {
   #hero .hero-img img {
     width: 100%;
   }
+
+  #start_button {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1798,7 +1802,7 @@ section {
   margin-top: 86px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .breadcrumbs {
     margin-top: 72px;
   }
@@ -1819,7 +1823,7 @@ section {
   font-size: 14px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .breadcrumbs ol {
     margin-top: 10px;
   }
