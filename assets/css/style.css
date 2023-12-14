@@ -425,6 +425,7 @@ h6 {
 
   #start_button {
     text-align: center;
+    margin-bottom: 3em;
   }
 }
 
@@ -446,6 +447,10 @@ h6 {
 
   #hero .hero-img img {
     width: 100%;
+  }
+
+  #start_button {
+    margin-bottom: 0em;
   }
 }
 
@@ -798,6 +803,17 @@ section {
     margin-bottom: 3rem !important;
   }
 }
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .mb-5 {
+    margin-bottom: 3rem !important;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # More Services
@@ -1265,6 +1281,10 @@ section {
   padding: 0;
 }
 
+.project_subheader {
+  color: #3498db;
+}
+
 /*--------------------------------------------------------------
 # Image pop-up
 --------------------------------------------------------------*/
@@ -1637,7 +1657,8 @@ section {
 }
 
 .faq .faq-item i {
-  color: #8bc4ea;
+  /*color: #8bc4ea;*/
+  color: #3498db;
   font-size: 24px;
   float: left;
   line-height: 0;
@@ -1798,6 +1819,11 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.contact_icon {
+  color: #2383c4;
+  font-size: 1.5em;
 }
 
 /*--------------------------------------------------------------
