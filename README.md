@@ -1,5 +1,5 @@
 This is the repository of Gefyra AI Technologies company website.\
-All rights reserved, 2023.
+All rights reserved, 2024.
 
 The icons used in this website can be found in the following libraries:<br>
 https://icons.getbootstrap.com/<br>
