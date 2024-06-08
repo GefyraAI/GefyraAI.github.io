@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Neurofind</title>
+  <title>rTMS treatment optimiser</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -82,13 +82,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Neurofind - Deep-Learning brain age estimator using MRI images</h2>
-          <!--
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Neurofind</li>
-          </ol>
-          -->
+          <h2>Sequential model for optimising rTMS treatment response in Schizophrenia</h2>
         </div>
 
       </div>
@@ -97,28 +91,35 @@
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-
         <div class="row gy-4">
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide">
-                  <img class="project_img" src="assets/img/portfolio/neurofind1.png"
-                       alt="Neurofind login page" onclick="image_popup(this);">
-                  <i class="bi-zoom-in enlarge_icon enlarge_icon_light"
-                     onclick="enlarge_icon_trigger(this);"></i>
-                </div>
 
                 <div class="swiper-slide">
-                  <img class="project_img" src="assets/img/portfolio/neurofind2.png"
-                       alt="How Neurofind works" onclick="image_popup(this);">
+                  <img class="project_img" src="assets/img/portfolio/resis1.png"
+                       alt="sequential predictor schematic" onclick="image_popup(this);">
                   <i class="bi-zoom-in enlarge_icon enlarge_icon_dark"
                      onclick="enlarge_icon_trigger(this);"></i>
                 </div>
 
                 <div class="swiper-slide">
-                  <img class="project_img" src="assets/img/portfolio/neurofind3.png"
-                       alt="Prediction output example" onclick="image_popup(this);">
+                  <img class="project_img" src="assets/img/portfolio/resis2.png"
+                       alt="sequential predictor performances" onclick="image_popup(this);">
+                  <i class="bi-zoom-in enlarge_icon enlarge_icon_dark"
+                     onclick="enlarge_icon_trigger(this);"></i>
+                </div>
+
+                <div class="swiper-slide">
+                  <img class="project_img" src="assets/img/portfolio/resis3.png"
+                       alt="predictive brain pattern" onclick="image_popup(this);">
+                  <i class="bi-zoom-in enlarge_icon enlarge_icon_dark"
+                     onclick="enlarge_icon_trigger(this);"></i>
+                </div>
+
+                <div class="swiper-slide">
+                  <img class="project_img" src="assets/img/portfolio/resis4.png"
+                       alt="ML pipeline schematic" onclick="image_popup(this);">
                   <i class="bi-zoom-in enlarge_icon enlarge_icon_dark"
                      onclick="enlarge_icon_trigger(this);"></i>
                 </div>
@@ -132,48 +133,50 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Involvement</strong>: <br>
-                  Setting up Cloud infrastructure,
-                  MRI image preprocessing and quality control pipeline implementation and deployment,
-                  Deep Learning pipeline debugging and implementation,
-                  AI backend system deployment
+                <li><strong>Scope</strong>: <br>
+                  MRI image preprocessing,
+                  Data cleaning,
+                  Algorithm research and development,
+                  Model validation,
+                  Model deployment,
+                  Scientific publication production
                 </li>
                 <li><strong>Technologies</strong>: <br>
-                  Python, Pandas, Numpy, Tensorflow, Keras, FreeSurfer, MRIQC, Docker, AWS
+                  Matlab, Python, PHP, MySQL, JavaScript, D3.js, AWS, Pandas, Scikit-learn
                 </li>
-                <li><strong>WebApp link</strong>: <a href="https://neurofind.ai/" target="_blank">Neurofind</a></li>
+                <li><strong>Publication link</strong>: <a href="https://www.nature.com/articles/s41398-024-02903-1" target="_blank">Translational Psychiatry</a></li>
               </ul>
             </div>
           </div>
           <div class="portfolio-description">
-            <h2>Helped a world-renowned research institute implement and deploy
-              Deep Learning models as a cloud-based user-friendly webapp</h2>
+            <h2>Sequential ML model increases rTMS treatment response in Schizophrenia from 50% to 94%</h2>
             <h4 class="project_subheader">The challenge</h4>
             <p>
-              A world-renowned research institute approached us to help them implement and deploy a Deep Learning-based
-              brain age estimator as a cloud-based webapp easily usable by doctors and researchers. The complex AI
-              backend system contains additional MRI image preprocessing and quality control pipelines on top of the
-              Deep Learning models, and the entire system needs to be deployed on the cloud.
+              Repetitive transcranial magnetic stimulation (rTMS) holds promise as a non-invasive treatment for patients
+              with schizophrenia. However, its effectiveness varies significantly among individuals. Some patients
+              experience substantial symptom reduction, while others show minimal improvement or no response at all.
+              The overall treatment response rate is only around 50%.
+              This variability poses a significant clinical challenge.
             </p>
             <h4 class="project_subheader">The solution</h4>
             <p>
-              We took over this project from the client and started from setting up the cloud computing infrastructure,
-              to the final deployment of the AI backend system, fulfilling all the goals and requirements from the
-              client.
+              To address this challenge, we propose a sequential comprehensive Machine learning prediction system
+              that leverages predictive models and diverse data sources: re-treatment sMRI, clinical, sociodemographic,
+              and polygenic risk score (PRS) data. We meticulously trained and cross-validated our models.
+              Rigorous validation ensures robust performance. Sequential modelling optimises model accuracies while
+              minimises data acquisition costs.
             </p>
             <h4 class="project_subheader">The end result</h4>
-              The finished web-app is a web-based user-friendly tool for detecting and quantifying neuroanatomical
-              abnormalities in an individual person from structural Magnetic Resonance Imaging (MRI) scans.
-              It can be useful for researchers investigating the neuroanatomical correlates of a wide range of traits
-              or disorders.
+            <p>
+              Our multimodal sequential prediction workflow achieved impressive balanced accuracy (BAC) rates:
+              94% for active-treated patients (92% for non-responders, 95% for responders) and 50% for sham-treated
+              patients. Notably, clinical + PRS and sMRI-based classifiers yielded BACs of 76% and 80%,
+              respectively. A prospective clinical trial is recently completed to validate our
+              model performances. With this model, clinicians can easily stratify patients before conducting rTMS
+              treatment to maximise response rate. <br>
               <br>
-              <br>
-              With a user account, you can upload a structural MRI scan of a person along with basic demographic
-              information such as age, gender and ethnicity. Within a few hours, Neurofind generates an individualised
-              report including an estimate of the person's brain age compared to their chronological age as a potential
-              marker of general brain health; the extent to which the person's brain structure differs from the brains
-              of a reference cohort of disease-free people and the location and extent of the differences in brain
-              structure from the reference cohort.
+              <b>Patients, healthcare providers, medical device manufacturers
+              and insurances can all maximise their interest.</b>
             </p>
           </div>
         </div>

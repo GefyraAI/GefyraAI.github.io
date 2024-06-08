@@ -880,6 +880,14 @@ section {
   background: #01666b;
 }
 
+.more-services .card:hover #resis_card {
+  background: #080F20;
+}
+
+.more-services .card:hover #PubMedGPT_card {
+  background: #375278;
+}
+
 .more-services .card:hover #NeuroMiner_card {
   background: #5d57ab;
 }
@@ -888,9 +896,7 @@ section {
   background: #995d62;
 }
 
-.more-services .card:hover #PubMedGPT_card {
-  background: #375278;
-}
+
 
 .more-services .card:hover .read-more a,
 .more-services .card:hover .card-title,
